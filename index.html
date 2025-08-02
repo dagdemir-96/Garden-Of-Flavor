@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garden Of Flavor</title>
+
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
+
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-white shadow-sm">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center gap-3" href="#"><img src="assets/logo.png" width="50"
+                        class="rounded shadow-sm" alt="logo" />
+                    <span class="text-success fw-bold fs-4 d-none d-md-block">Garden Of Flavor</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 gap-2">
+                        <li class="nav-item mt-2">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item mt-2">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item mt-2">
+                            <a class="nav-link" href="#">Menu</a>
+                        </li>
+                        <li class="nav-item mt-2">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item mt-2">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                    <a href="#" class="btn btn-success ms-lg-3 d-none d-lg-block">Order Online</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- About -->
+    <section id="about" class="py-5 bg-light ">
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col text-center">
+                    <h3 class="text-success fw-bold">About Garden Of Flavor</h3>
+                    <p class="lead text-muted mx-auto" style="max-width: 650px;"> Welcome to Garden Of Flavor, your
+                        destination for healthy, fresh,
+                        and delicious culinary experiences. We are passionate about
+                        bringing you the purest flavors from nature, crafted with love and
+                        served with care. Discover a journey of taste, health, and
+                        wellness in every bite!</p>
+                </div>
+            </div>
+            <!-- carousel -->
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div id="carouselExampleCaptions" class="carousel slide rounded shadow-sm overflow-hidden">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="assets/slide-1.jpg" class="d-block w-100" alt="slide-1">
+                                <div class="carousel-caption d-none d-md-block bg-black bg-opacity-50 rounded-3 p-3">
+                                    <h5 class="fw-bold">Fresh Ingredients</h5>
+                                    <p> We select only the finest, locally sourced ingredients to
+                                        create vibrant and nourishing dishes..</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/slide-2.jpg" class="d-block w-100" alt="slide-2">
+                                <div class="carousel-caption d-none d-md-block bg-black bg-opacity-50 rounded-3 p-3">
+                                    <h5 class="fw-bold">Crafted with Passion</h5>
+                                    <p>Our chefs blend tradition and creativity, ensuring every
+                                        meal is a delightful experience.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/slide-3.jpg" class="d-block w-100" alt="slide-3">
+                                <div class="carousel-caption d-none d-md-block bg-black bg-opacity-50 rounded-3 p-3">
+                                    <h5 class="fw-bold">Wellness and Taste</h5>
+                                    <p> At Garden Of Flavor, we believe that healthy eating can be
+                                        delicious and exciting for everyone.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories -->
+    <section id="categories" class="py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <h3 class="text-success fw-bold mb-3">Categories</h3>
+                </div>
+            </div>
+            <div id="category-buttons" class="d-flex flex-wrap justify-content-center gap-3">
+                <!-- button -->
+                <div>
+                    <input type="radio" id="All" class="category-button" name="category" checked>
+
+
+                    <label for="all">
+                        <span>&#129360;</span>All
+                    </label>
+                </div>
+                <!-- button -->
+                <div>
+                    <input type="radio" id="breakfast" class="category-button" name="category">
+                    <label for="breakfast">
+                        <span>&#127827;</span>Breakfast
+                    </label>
+                </div>
+                <!-- button -->
+                <div>
+                    <input type="radio" id="lunch" class="category-button" name="category">
+                    <label for="lunch">
+                        <span>&#127828;</span>Lunch
+                    </label>
+                </div>
+                <!-- button -->
+                <div>
+                    <input type="radio" id="shakes" class="category-button" name="category">
+                    <label for="shakes">
+                        <span>&#129380;</span>Shakes
+                    </label>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- menu -->
+
+    <section id="menu-cards" class="py-5 bg-light">
+        <div class="container">
+            <!-- title -->
+            <h3 class="fw-bold text-center text-success mb-3"></h3>
+            <!-- row -->
+            <div class="row" id="menu-list">
+                <!-- menu-item 
+    <div class="col-md-6 col-lg-4 mb-4">
+        <div class="card menu-card">
+           
+            <div class="position-relative">
+                 <img
+                  src="http://127.0.0.1:5500/assets/item-1.jpg"
+                  class="card-img-top"
+                  alt="menu-image"
+                />
+                <span class="badge bg-success position-absolute top-0 start-0 m-3 px-3 py-2 text-capitalize menu-card-badge">Breakfast</span>
+                <span class="badge bg-white text-success fw-bold position-absolute top-0 end-0 m-3 px-3 py-2  border border-success menu-card-price ">$11</span>
+            </div>
+          
+             <div class="card-body">
+                <h5 class="card-title fw-bold text-success mb-2">Title</h5>
+             </div>
+        </div>
+    </div>
+ </div>
+ -->
+            </div>
+    </section>
+
+    <!-- Blog -->
+    <section id="blogs" class="py-5">
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col text-center">
+                    <h3 class="text-success fw-bold mb-3">Latest Blog Posts</h3>
+                    <p class="lead text-muted mx-auto">Read our latest content on health, flavor and naturalness! Tips
+                        from our experts, recipes and the latest news from the world of Garden Of Flavor.</p>
+                </div>
+            </div>
+            <!-- blog cards -->
+            <div class="row">
+                <!-- card -->
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card h-100 shadow-sm border-0 blog-card">
+                        <div class="position-relative">
+                            <img src="assets/smoothie.jpg" class="card-img-top rounded-top" alt="blog-card-1">
+                            <span class="badge bg-success position-absolute top-0 start-0 m-3 px-3 py-2">Recipes</span>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold text-success">Refreshing Smoothie Recipes for Summer</h5>
+                            <p class="card-text text-muted">Meet refreshing and healthy smoothie recipes in the summer
+                                heat! Boost your energy with our special recipes prepared with the freshest fruits</p>
+                        </div>
+                        <div
+                            class="card-footer bg-transparent border-0 d-flex align-items-center justify-content-between">
+                            <small class="text-muted">28 May 2025</small>
+                            <a href="#" class="text-success text-decoration-none fw-semibold">Read More &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- card -->
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card h-100 shadow-sm border-0 blog-card">
+                        <div class="position-relative">
+                            <img src="assets/vegatables.jpg" class="card-img-top rounded-top" alt="blog-card-1">
+                            <span class="badge bg-success position-absolute top-0 start-0 m-3 px-3 py-2">Healthy
+                                Living</span>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold text-success">The Importance of Seasonal Nutrition</h5>
+                            <p class="card-text text-muted">Which vegetables and fruits should be eaten and when? The
+                                benefits and tricks of eating in season to our health are in this article.</p>
+                        </div>
+                        <div
+                            class="card-footer bg-transparent border-0 d-flex align-items-center justify-content-between">
+                            <small class="text-muted">5 June 2025</small>
+                            <a href="#" class="text-success text-decoration-none fw-semibold">Read More &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- card -->
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card h-100 shadow-sm border-0 blog-card">
+                        <div class="position-relative">
+                            <img src="assets/events.jpg" class="card-img-top rounded-top" alt="blog-card-1">
+                            <span class="badge bg-success position-absolute top-0 start-0 m-3 px-3 py-2">Events</span>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold text-success">Garden Of Flavor Events Started!</h5>
+                            <p class="card-text text-muted">Flavor-filled workshops, tasting days and more! Don't miss
+                                our events to join the Garden Of Flavor community.</p>
+                        </div>
+                        <div
+                            class="card-footer bg-transparent border-0 d-flex align-items-center justify-content-between">
+                            <small class="text-muted">22 May 2025</small>
+                            <a href="#" class="text-success text-decoration-none fw-semibold">Read More &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact-->
+
+    <section id="contact" class="py-5 bg-light">
+        <div class="container">
+            <!-- Top -->
+            <div class="row mb-4">
+                <div class="col text-center">
+                    <h3 class="fw-bold text-success mb-3">Contact Us</h3>
+                    <p class="lead text-muted mx-auto" style="max-width: 650px;">You can contact us for any questions,
+                        suggestions or cooperation requests. We will be happy to help you!</p>
+                </div>
+            </div>
+
+            <!-- Bottom -->
+            <div class="row align-items-center">
+                <!-- Info -->
+                <div class="col-lg-5">
+                    <!-- Location -->
+                    <div class="mb-4">
+                        <h5 class="fw-bold text-success mb-2 d-flex align-items-center gap-2"><i
+                                class="bi bi-geo-alt"></i> Adress </h5>
+                        <p class=" text-muted mb-2">Garden Of Flavor Cafe, Çiçek Sk. No:10, İstanbul</p>
+
+                    </div>
+                    <!-- Email -->
+                    <div class="mb-4">
+                        <h5 class="fw-bold text-success mb-2 d-flex align-items-center gap-2"><i
+                                class="bi bi-envelope"></i>Email </h5>
+                        <p class=" text-muted mb-2">info@gardenofflavor.com</p>
+
+                    </div>
+                    <!-- Phone -->
+                    <div class="mb-4">
+                        <h5 class="fw-bold text-success mb-2 d-flex align-items-center gap-2"><i
+                                class="bi bi-telephone"></i> Phone </h5>
+                        <p class=" text-muted mb-2">+90 555 123 45 67</p>
+
+                    </div>
+
+                    <!-- Social Icons -->
+                    <div class="d-flex gap-3">
+
+
+                        <a href="#" class="text-success fs-4"><i class="bi bi-instagram"></i></a>
+
+                        <a href="#" class="text-success fs-4"><i class="bi bi-facebook"></i></a>
+
+                        <a href="#" class="text-success fs-4"><i class="bi bi-twitter-x"></i></a>
+
+                    </div>
+                </div>
+
+                <!-- Form -->
+                <div class="col-lg-7">
+
+                    <form>
+                        <div class="row g-3">
+                            <!-- Name -->
+                            <div class="col-md-6">
+                                <label class="form-label fw-semibold" for="name">Your Name</label>
+                                <input type="text" id="name" class="form-control" placeholder="Enter your name"
+                                    required>
+                            </div>
+                            <!-- Email -->
+                            <div class="col-md-6">
+                                <label class="form-label fw-semibold" for="email">Email</label>
+                                <input type="email" id="email" class="form-control" placeholder="Your email address"
+                                    required>
+                            </div>
+                            <!-- Message -->
+                            <div class="col-12">
+                                <label class="form-label fw-semibold" for="message">Your Message</label>
+                                <textarea id="message" class="form-control" rows="5"
+                                    placeholder="Write your message here"></textarea>
+                            </div>
+
+                            <div>
+                                <button class="btn btn-success px-4 py-2 fw-bold shadow-sm">Send</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+
+    <footer class="bg-success text-white pt-5 pb-3 mt-auto">
+        <div class="container">
+            <div class="row align-items-start">
+                <!-- col -->
+                <div class="col-md-4 mb-4 mb-md-0">
+
+                    <div class="d-flex align-items-center gap-2 mb-2">
+                        <img src="assets/logo.png" class="rounded shadow-sm bg-white p-1" width="42" alt="logo">
+                        <span class="fw-bold fs-5">Garden Of Flavor</span>
+                    </div>
+                    <p class="small mb-2">Flavors inspired by nature, healthy and fresh meals! Thank you for choosing us
+                        .</p>
+
+                </div>
+
+                <!-- col -->
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h6 class="fw-bold">Quick Links</h6>
+                    <ul class="list-unstyled d-flex flex-column gap-2">
+                        <li><a class="text-decoration-none text-white" href="#">Home</a></li>
+                        <li><a class="text-decoration-none text-white" href="#">About</a></li>
+                        <li><a class="text-decoration-none text-white" href="#">Menu</a></li>
+                        <li><a class="text-decoration-none text-white" href="#">Blog</a></li>
+                        <li><a class="text-decoration-none text-white" href="#">Contact</a></li>
+
+                    </ul>
+                </div>
+
+                <!-- footer contact -->
+                
+                <div class="col-md-4 mb-4 mb-md-0">
+              <h6 class="fw-bold">Contact</h6>
+
+                    <p class="small mb-1 d-flex gap-2"> <i class="bi bi-geo-alt"></i> Çiçek Sk. No:10, İstanbul   </p>
+
+                    <p class="small mb-1  d-flex gap-2"> <i class="bi bi-envelope"></i> info@gardenofflavor.com   </p>
+
+               <p class="small mb-1  d-flex gap-2"> <i class="bi bi-telephone"></i> +90 555 123 45 67  </p>  
+
+               <!-- social -->
+                 <div class="d-flex gap-3 mt-3">
+                        
+                    
+                        <a href="#" class="text-white fs-4"><i class="bi bi-instagram"></i></a>
+
+                        <a href="#" class="text-white fs-4"><i class="bi bi-facebook"></i></a>
+
+                        <a href="#" class="text-white fs-4"><i class="bi bi-twitter-x"></i></a>
+
+                    </div>
+                </div>
+                
+                
+            </div>
+             <hr class="border border-white opacity-25 my-4">
+
+            <div class="row text-center">
+                <p class="small">&copy; 2025 Garden Of Flavor | All Rights Reserved. </p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- bootstarp js  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <!-- js bağlantı -->
+    <!-- * Js Connection -->
+    <script src="./js/main.js" type="module"></script>
+</body>
+
+</html>

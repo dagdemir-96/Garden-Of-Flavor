@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+/* category buttons */
+#category-buttons label {
+    padding: 10px 26px;
+    font-size: 18px;
+    font-weight: 500;
+    border: 2px solid #43a047;
+    cursor: pointer;
+    background-color: #e8f5e9;
+    color: #388e3c;
+    border-radius: 25px;
+    box-shadow: 0 1px 6px rgba(67, 160, 71, 0.05);
+    transition: all .3s ease;
+}
+
+#category-buttons label:hover {
+    background-color: #43a047;
+    color: #ffffff;
+}
+
+#category-buttons input {
+    display: none;
+}
+
+#category-buttons div:has(input:checked) label {
+    background: linear-gradient(90deg, #43a047 60% #8bc34a 100%);
+    color: #ffffff;
+    border-color: #388e3c;
+    box-sizing: 0 2px 12px rgba(67, 160, 71, 0.11);
+
+}
+
+.menu-card {
+    border: none;
+    border-radius: 18px;
+    background-color: #f5fff7;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+}
+
+.menu-card:hover {
+    transform: translateY(-7px);
+}
+
+.menu-card img {
+    height: 250px;
+    object-fit: cover;
+}
+
+.menu-card-badge {
+    font-size: 0.97rem;
+    background-color: linear-gradient(90deg, #43a047 60% #8bc34a 100%);
+    border-radius: 16px;
+    box-shadow: 0 2px 8px rgba(67, 160, 71, 0.15);
+}
+
+.menu-card-price {
+    font-size: 1.01rem;
+    color: #388e3c;
+    border: 1.2px solid #43a047;
+    box-shadow: 0 1px 6px rgba(67, 160, 71, 0.07);
+    border-radius: 16px;
+}
+
+.blog-card {
+    cursor: pointer;
+    transition: all 0.18s ease;
+    margin-top: 60px;
+}
+
+.blog-card:hover {
+    transform: translateY(-7px) scale(1.01);
+}
+.blog-card img{
+height: 230px;
+object-fit: cover;
+width: 100%;
+}
+
+
+
+/* detail-img */
+.detail-img{
+    min-height: 320px !important;
+    object-fit: cover;
+    max-height: 420px !important;
+
+}
