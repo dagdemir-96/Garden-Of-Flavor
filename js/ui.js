@@ -46,8 +46,8 @@ const renderDetailPage=(product)=>{
             <a href="/index.html" class="text-success fs-4"><i class="bi bi-house-fill"></i></a>
             <div class="detail-breadcrumb ms-2">
                 <span class="text-muted">detail /</span>
-                <span class="text-muted">Shakes /</span>
-                <span>Oreo Dream</span>
+                <span class="text-muted"> ${product.category} /</span>
+                <span>${product.title}</span>
 
             </div>
 
@@ -57,21 +57,20 @@ const renderDetailPage=(product)=>{
 
         <div class="row">
             <div class="col-12 col-md-5 mb-4">
-                <img src="http://127.0.0.1:5500/assets/item-6.jpeg" alt="detail.image"
+                <img src="${product.img}" alt="detail.image"
                     class="img-fluid rounded-4 w-100 shadow detail-img">
             </div>
 
 
             <div class="col-12 col-md-7 mb-4">
-                <h2 class="fw-bold text-success mb-3">Oreo Dream</h2>
+                <h2 class="fw-bold text-success mb-3">${product.title}</h2>
                 <div class="mb-3">
-                    <span class="badge bg-warning text-dark fs-6 px-3 py-2 text-capitalize me-2">Shakes</span>
-                    <span class="badge bg-light text-success fs-6 px-3 py-2 text-capitalize">Price:$18.99</span>
+                    <span class="badge bg-warning text-dark fs-6 px-3 py-2 text-capitalize me-2">${product.category}</span>
+                    <span class="badge bg-light text-success fs-6 px-3 py-2 text-capitalize">Price:$${product.price.toFixed(2)}</span>
                 </div>
-                <p class=" lead  text-muted mb-4">A must-try for Oreo lovers! Oreo Dream takes you to a sweet new
-                    world. Simply irresistible!
-
-                </p>
+                p class="lead text-muted mb-4">
+              ${product.desc}
+            </p>
                 <button class="btn btn-success shadow px-4 py-2 fw-semibold">Order Now</button>
             </div>
         </div>

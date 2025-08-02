@@ -58,6 +58,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
         //ürünün id sini değişkene ata
          const itemId = Number(params.get("id"));
+         console.log(itemId);
         
        
         //menuData içerisinde itemId ye sahip elemanı bul
